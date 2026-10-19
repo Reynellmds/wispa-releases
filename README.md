@@ -23,12 +23,12 @@ Habla con naturalidad y Wispa escribe por ti en cualquier aplicación: limpio, b
 
 Wispa convierte tu voz en texto escrito en **cualquier aplicación de Windows**: correo, WhatsApp, Word, el navegador, tu editor de código… Pulsas una tecla, hablas y el texto aparece donde está el cursor.
 
-No es un dictado literal: la IA **quita las muletillas, aplica tus correcciones** ("a las cinco, no, mejor a las seis"), **pone puntuación y da formato** a listas, correos, teléfonos o fechas. Además traduce mientras hablas, convierte tus ideas en prompts para otras IA y toma notas de tus reuniones.
+No es un dictado literal: la IA **quita las muletillas, aplica tus correcciones** ("a las cinco, no, mejor a las seis"), **pone puntuación y da formato** a listas, correos, teléfonos o fechas. Además traduce mientras hablas, reescribe el texto que selecciones, convierte tus ideas en prompts para otras IA y toma notas de tus reuniones.
 
 ## Funciones
 
 ### 🎙️ Dictado inteligente
-Pulsa **Alt derecho**, habla y vuelve a pulsar, o mantenlo pulsado mientras hablas. El texto se pega en la aplicación que estés usando.
+Pulsa **Alt derecho**, habla y vuelve a pulsar. El texto se pega en la aplicación que estés usando; si no hay ningún sitio donde escribir, se queda **copiado** para que lo pegues con Ctrl+V.
 
 <img src="docs/screenshots/burbuja-dictado.png" alt="Burbuja de dictado" width="460" />
 
@@ -41,6 +41,9 @@ Pulsa **Alt derecho**, habla y vuelve a pulsar, o mantenlo pulsado mientras habl
 - Diccionario personal para que nombres, marcas y términos técnicos se escriban siempre bien.
 - Botones **✕** (cancelar) y **✓** (terminar y pegar) en la propia burbuja, sin quitar el foco a tu aplicación.
 - Funciona con teclados españoles: escribir `@`, `#` o `€` con AltGr no activa el dictado.
+
+### ✏️ Editar el texto seleccionado
+Selecciona cualquier texto, pulsa **Ctrl derecho + Shift derecho** y di cómo quieres cambiarlo: *"ponlo para redes sociales con emojis"*, *"hazlo más formal"*, *"tradúcelo al inglés"*, *"resúmelo en una frase"*. Wispa lo reescribe y sustituye la selección.
 
 ### 🌍 Traducción por voz
 Con **Alt derecho + Shift derecho** hablas en tu idioma y Wispa escribe en otro. Elige hasta 3 idiomas de destino y cambia entre ellos tocando la etiqueta de la burbuja.
@@ -90,20 +93,23 @@ Estadísticas de uso (palabras, tiempo ahorrado, velocidad, racha y mapa de acti
 
 | Atajo | Acción |
 |---|---|
-| **Alt derecho** (toque) | Empezar / terminar el dictado |
-| **Alt derecho** (mantener) | Dictar mientras lo mantienes pulsado |
+| **Alt derecho** | Empezar / terminar el dictado |
 | **Alt derecho + Shift derecho** | Dictar y traducir |
 | **Alt derecho + Ctrl derecho** | Convertir lo que dices en un prompt |
+| **Ctrl derecho + Shift derecho** | Editar el texto seleccionado |
 | **Win + Alt + M** | Empezar / terminar las notas de una reunión |
 | **Esc** | Cancelar |
+
+Puedes cambiar los atajos en **Configuración → Atajos de teclado**, y activar ahí *Dictar manteniendo pulsado* si prefieres grabar mientras mantienes la tecla.
 
 ## Requisitos
 
 - Windows 10 u 11 (64 bits) y un micrófono.
 - Una **clave de API de Groq** (gratuita) para la transcripción → [console.groq.com/keys](https://console.groq.com/keys)
-- Una **clave de API de Anthropic** (recomendada) para el pulido, la traducción, el modo Prompt y las notas de reuniones → [console.anthropic.com](https://console.anthropic.com/)
+- Una **clave de API de Anthropic** (recomendada) para el pulido, la traducción, la edición, el modo Prompt y las notas de reuniones → [console.anthropic.com](https://console.anthropic.com/)
+- O, en su lugar, una **clave de OpenAI** → [platform.openai.com/api-keys](https://platform.openai.com/api-keys). Con solo la de OpenAI, Wispa la usa también para transcribir.
 
-> Sin la clave de Anthropic, el dictado funciona igualmente, pero el texto se pega tal cual se transcribe.
+> Sin clave de Anthropic ni de OpenAI, el dictado funciona igualmente, pero el texto se pega tal cual se transcribe.
 
 ## Instalación
 
@@ -115,7 +121,7 @@ Estadísticas de uso (palabras, tiempo ahorrado, velocidad, racha y mapa de acti
 ## Privacidad
 
 - Tu historial, reuniones, diccionario y claves se guardan **solo en tu ordenador** (`%APPDATA%\Wispa`).
-- El audio se envía a **Groq** para transcribirlo y el texto a **Anthropic** para pulirlo, con tus propias claves. Wispa no tiene servidores propios que guarden tus datos.
+- El audio se envía a **Groq** (u OpenAI) para transcribirlo y el texto a **Anthropic** (u OpenAI) para pulirlo, con tus propias claves. Wispa no tiene servidores propios que guarden tus datos.
 
 ## Actualizaciones
 
@@ -126,7 +132,7 @@ Wispa busca versiones nuevas al abrirse y cada pocas horas, las descarga en segu
 <details>
 <summary><b>El atajo no hace nada o se activa otra aplicación</b></summary>
 
-Otras apps de dictado (Typeless, Wispr Flow…) usan los mismos atajos. Ciérralas o cambia sus atajos para que no reaccionen las dos a la vez.
+Otras apps de dictado (Typeless, Wispr Flow…) usan los mismos atajos. Ciérralas, cambia sus atajos o cambia los de Wispa en Configuración → Atajos de teclado. Tampoco funcionan mientras tienes delante una ventana abierta como administrador.
 </details>
 
 <details>
