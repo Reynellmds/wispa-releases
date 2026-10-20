@@ -45,6 +45,8 @@ Pulsa **Alt derecho**, habla y vuelve a pulsar. El texto se pega en la aplicaci�
 ### ✏️ Editar el texto seleccionado
 Selecciona cualquier texto, pulsa **Ctrl derecho + Shift derecho** y di cómo quieres cambiarlo: *"ponlo para redes sociales con emojis"*, *"hazlo más formal"*, *"tradúcelo al inglés"*, *"resúmelo en una frase"*. Wispa lo reescribe y sustituye la selección.
 
+<img src="docs/screenshots/burbuja-editar.png" alt="Editar el texto seleccionado" width="460" />
+
 ### 🌍 Traducción por voz
 Con **Alt derecho + Shift derecho** hablas en tu idioma y Wispa escribe en otro. Elige hasta 3 idiomas de destino y cambia entre ellos tocando la etiqueta de la burbuja.
 
@@ -101,6 +103,8 @@ Estadísticas de uso (palabras, tiempo ahorrado, velocidad, racha y mapa de acti
 | **Esc** | Cancelar |
 
 Puedes cambiar los atajos en **Configuración → Atajos de teclado**, y activar ahí *Dictar manteniendo pulsado* si prefieres grabar mientras mantienes la tecla.
+
+<img src="docs/screenshots/atajos.png" alt="Atajos de teclado" width="760" />
 
 ## Requisitos
 
