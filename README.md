@@ -76,7 +76,7 @@ Conecta Google Calendar u Outlook y verás tus próximas reuniones con **Unirse*
 <img src="docs/screenshots/tarjeta-reuniones.png" alt="Tarjeta de reuniones" width="400" />
 
 ### 🫧 Barra flotante
-Discreta y siempre a mano: en reposo es una cápsula fina sobre la barra de tareas que se despliega al pasar el ratón.
+Discreta y siempre a mano: en reposo es una cápsula fina sobre la barra de tareas que se despliega al pasar el ratón. Si usas varias pantallas, se coloca en la que tienes el ratón.
 
 | En reposo | Al pasar el ratón | Menú (clic derecho) |
 |:---:|:---:|:---:|
@@ -120,7 +120,7 @@ Puedes cambiar los atajos en **Configuración → Atajos de teclado**, y activar
 1. Descarga **`Wispa-Setup-<versión>.exe`** desde la [última versión](https://github.com/Reynellmds/wispa-releases/releases/latest).
 2. Ábrelo. Si Windows muestra *"Windows protegió tu PC"* (el instalador aún no está firmado), pulsa **Más información → Ejecutar de todas formas**.
 3. Abre Wispa → **Configuración → Claves de API** y pega tus claves.
-4. ¡Listo! Pulsa **Alt derecho** en cualquier aplicación y empieza a hablar.
+4. ¡Listo! Pulsa **Alt derecho** en cualquier aplicación y empieza a hablar. Wispa se inicia sola con Windows, así que no tendrás que volver a abrirla.
 
 ## Privacidad
 
