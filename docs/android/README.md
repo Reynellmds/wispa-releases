@@ -49,6 +49,8 @@ Toca el **micrófono blanco**, habla y vuelve a tocarlo (se pone **rojo** mientr
 ### 🌍 Traducción por voz
 Toca **🌍 EN** en el teclado, habla en tu idioma y Wispa escribe en otro. Elige hasta **3 idiomas** en Ajustes y pasa de uno a otro tocando 🌍 otra vez.
 
+No suena a traductor: escribe como un nativo y adapta el tono a la app, **casual y actual** en WhatsApp, Telegram o redes, y **cuidado** en Gmail, Outlook o LinkedIn. También puedes fijar el tono (casual o profesional) en Ajustes.
+
 <img src="teclado-traducir.png" alt="El teclado en modo Traducir" width="480" />
 
 ### ✨ Modo Prompt

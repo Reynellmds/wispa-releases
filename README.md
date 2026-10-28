@@ -50,6 +50,8 @@ Selecciona cualquier texto, pulsa **Ctrl derecho + Shift derecho** y di cómo qu
 ### 🌍 Traducción por voz
 Con **Alt derecho + Shift derecho** hablas en tu idioma y Wispa escribe en otro. Elige hasta 3 idiomas de destino y cambia entre ellos tocando la etiqueta de la burbuja.
 
+No suena a traductor: escribe como un nativo y adapta el tono a la app, **casual y actual** en WhatsApp, Telegram o redes, y **cuidado** en correos y LinkedIn. También puedes fijar el tono (casual o profesional) en Configuración.
+
 <img src="docs/screenshots/burbuja-traducir.png" alt="Traducción por voz" width="460" />
 
 ### ✨ Modo Prompt
