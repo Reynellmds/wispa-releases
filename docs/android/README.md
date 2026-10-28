@@ -41,6 +41,15 @@ Toca el **micrófono blanco**, habla y vuelve a tocarlo (se pone **rojo** mientr
 
 - Elige el idioma en el que hablas desde el propio teclado: **Auto**, **ES** o **EN**.
 - **␣** espacio, **⌫** borrar (mantén pulsado para borrar una palabra), **intro** y **🌐** para volver a tu teclado normal.
+- Mientras grabas ves un **cronómetro**, y **⌫** se convierte en **✕** para cancelar sin escribir nada.
+- **Sonidos** suaves al empezar, terminar y cancelar (se pueden quitar en Ajustes).
+- Si terminas sin haber hablado, no se escribe nada: Wispa avisa *«No se detectó voz»* en vez de inventar texto.
+- Si no hay dónde escribir, lo dictado se queda **copiado** para que lo pegues.
+
+### 🌍 Traducción por voz
+Toca **🌍 EN** en el teclado, habla en tu idioma y Wispa escribe en otro. Elige hasta **3 idiomas** en Ajustes y pasa de uno a otro tocando 🌍 otra vez.
+
+<img src="teclado-traducir.png" alt="El teclado en modo Traducir" width="480" />
 
 ### ✨ Modo Prompt
 Toca **✨ Prompt** en el teclado, explica lo que quieres a tu manera y Wispa lo convierte en un **prompt claro y completo** para otra IA. Sabe en qué app estás y lo adapta:
@@ -55,7 +64,7 @@ Toca **✨ Prompt** en el teclado, explica lo que quieres a tu manera y Wispa lo
 Selecciona un texto (o no selecciones nada para usar todo el campo), toca la **varita** y di qué quieres: *«hazlo más formal»*, *«ponlo para redes sociales con emojis»*, *«tradúcelo al inglés»*, *«resúmelo en una frase»*. Wispa lo reescribe y lo sustituye.
 
 ### 🏠 Tus números
-La pantalla de inicio te dice si todo está listo y cuánto llevas dictado: **palabras, palabras de hoy, dictados y tiempo ahorrado** frente a escribir con el teclado.
+La pantalla de inicio te dice si todo está listo y cuánto llevas dictado: **palabras, palabras de hoy, dictados, tiempo ahorrado** frente a escribir con el teclado, **palabras por minuto** y **días seguidos** dictando.
 
 <img src="inicio.png" alt="Pantalla de inicio con estadísticas" width="300" />
 
@@ -73,6 +82,8 @@ Añade nombres y palabras raras (personas, marcas, lugares, términos de tu trab
 - **Modelo de Claude:** Haiku 5.5 (el más rápido y barato, recomendado), Sonnet 5.5 u Opus 5.5 (el más inteligente).
 - **Pulir el texto** activado o desactivado.
 - **Idioma de la app:** automático, español o inglés.
+- **Traducción:** hasta 3 idiomas de destino.
+- **Sonidos** activados o desactivados.
 
 | Claves y permisos | Claude e idiomas |
 |:---:|:---:|
